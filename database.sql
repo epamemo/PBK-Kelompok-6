@@ -26,3 +26,7 @@ CREATE TABLE Video (
 	PRIMARY KEY (id_video);
 
 )
+CREATE TABLE History(
+
+)
+
