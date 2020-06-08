@@ -26,3 +26,4 @@ CREATE TABLE Video (
 	PRIMARY KEY (id_video);
 
 )
+
