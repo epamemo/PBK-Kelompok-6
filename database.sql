@@ -27,6 +27,7 @@ CREATE TABLE Video (
 
 )
 CREATE TABLE History(
-
+	id_user INT(11) NOT NULL;
+	id_materi INT (11) NOT NULL;
 )
 
