@@ -26,6 +26,10 @@ CREATE TABLE Materi(
 	Tipe VARCHAR(40) NOT NULL;  
 	PRIMARY KEY (id_Materi);
 )
+CREATE TABLE Kuis (
+	id_Materi INT(11) NOT NUll;
+	Soal TEXT (255) NOT NULL;
+)
 CREATE TABLE Video (
 	id_video INT(11) UNSIGNED AUTO_INCREMENT;
 	judul_video VARCHAR(255) NOT NULL;
