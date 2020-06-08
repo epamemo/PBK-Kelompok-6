@@ -1,15 +1,4 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--
-Design by TEMPLATED
-http://templated.co
-Released for free under the Creative Commons Attribution License
-
-Name       : Hyacinth 
-Description: A two-column, fixed-width design with dark color scheme.
-Version    : 1.0
-Released   : 20131010
-
--->
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -112,10 +101,7 @@ Released   : 20131010
             <div class="title">
                 <h2>Welcome to our website</h2>
             </div>
-            <p>This is <strong>Hyacinth</strong>, a free, fully standards-compliant CSS template designed by <a
-                    href="http://templated.co" rel="nofollow">TEMPLATED</a>. The photos in this template are from <a
-                    href="http://fotogrph.com/"> Fotogrph</a>. This free template is released under the <a
-                    href="http://templated.co/license">Creative Commons Attribution</a> license, so you're pretty much
+            <p>This is <strong>Hyacinth</strong>, a free, fully standards-compliant CSS template designed by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>. The photos in this template are from <a href="http://fotogrph.com/"> Fotogrph</a>. This free template is released under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so you're pretty much
                 free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have
                 fun :) </p>
         </div>
@@ -164,8 +150,7 @@ Released   : 20131010
         </div>
     </div>
     <div id="copyright" class="container">
-        <p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a
-                href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+        <p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
     </div>
 </body>
 
