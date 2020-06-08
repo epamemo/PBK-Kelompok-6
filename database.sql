@@ -19,3 +19,10 @@ CREATE TABLE Materi(
 	Tipe VARCHAR(40) NOT NULL;  
 	PRIMARY KEY (id_Materi);
 )
+CREATE TABLE Video (
+	id_video INT(11) UNSIGNED AUTO_INCREMENT;
+	judul VARCHAR(255) NOT NULL;
+	url VARCHAR(255) NOT NULL;
+	PRIMARY KEY (id_video);
+
+)
