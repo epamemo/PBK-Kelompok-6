@@ -91,31 +91,14 @@ include 'header.php';
                     </div>
                 </div>
                 <div class="row half">
-                    <div class="12u">
-                        <textarea name="message" placeholder="Message"></textarea>
+                    <div class="6u">
+                        <input type="password" class="text" name="password" placeholder="Password"></input>
                     </div>
                 </div>
                 <div class="row">
                     <div class="12u"> <a href="#" class="button submit">Send Message</a> </div>
                 </div>
             </form>
-        </div>
-    </div>
-</div>
-<div id="wrapper4">
-    <div id="footer" class="container">
-        <div>
-            <header class="title">
-                <h2>Get in touch</h2>
-                <span class="byline">Phasellus nec erat sit amet nibh pellentesque congue</span>
-            </header>
-            <ul class="contact">
-                <li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>
-                <li><a href="#" class="icon icon-facebook"><span></span></a></li>
-                <li><a href="#" class="icon icon-dribbble"><span>Pinterest</span></a></li>
-                <li><a href="#" class="icon icon-tumblr"><span>Google+</span></a></li>
-                <li><a href="#" class="icon icon-rss"><span>Pinterest</span></a></li>
-            </ul>
         </div>
     </div>
 </div>
