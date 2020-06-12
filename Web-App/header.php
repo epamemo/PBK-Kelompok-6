@@ -21,16 +21,23 @@
 <body>
     <div id="header-wrapper">
         <div id="header" class="container">
-            <div id="logo">
-                <h1><a href="#">SIJANDA</a></h1>
-                <span>Sinau Jawa Dan Sunda</span>
-            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <div id="menu">
                 <ul>
                     <li class="current_page_item"><a href="#" accesskey="1" title="">Beranda</a></li>
                     <li><a href="#" accesskey="2" title="">Tentang</a></li>
                     <li><a href="#" accesskey="3" title="">Kontak</a></li>
                 </ul>
+            </div>
+            <br>
+            <br>
+            <div id="logo">
+                <img src="../4x/logo-w-completed@4x.png" alt="" width="750px">
             </div>
         </div>
     </div>
