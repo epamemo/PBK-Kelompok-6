@@ -36,10 +36,10 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">Profil</a>
+                    <a href="profil.php">Profil</a>
                 </li>
                 <li>
-                    <a href="#">Materi</a>
+                    <a href="materi.php">Materi</a>
                 </li>
                 <li>
                     <a href="#">Latihan</a>
