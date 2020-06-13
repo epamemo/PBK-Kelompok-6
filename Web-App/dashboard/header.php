@@ -9,7 +9,7 @@
     <title>Dashboard-siJanda</title>
 
     <!-- Bootstrap CSS CDN -->
-    <link rel="stylesheet" href="../css/bootstrap.css"">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <!-- Custom CSS -->
     <link rel=" stylesheet" href="../css/style-dashboard.css">
     <!-- Font Awesome CSS -->
