@@ -11,36 +11,27 @@
 </head>
 
 <body>
-    <div id="header-wrapper">
-        <div id="header" class="container">
-            <form action="/action_page.php" style="border:1px solid #ccc">
-                <div class="container">
-                    <h1>Sign Up</h1>
-                    <p>Please fill in this form to create an account.</p>
-                    <hr>
-
-                    <label for="email"><b>Email</b></label>
-                    <input type="text" placeholder="Enter Email" name="email" required>
-
-                    <label for="psw"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required>
-
-                    <label for="psw-repeat"><b>Repeat Password</b></label>
-                    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-
-                    <label>
-                        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-                    </label>
-
-                    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-
-                    <div class="clearfix">
-                        <button type="button" class="cancelbtn">Cancel</button>
-                        <button type="submit" class="signupbtn">Sign Up</button>
-                    </div>
+    <div class="container">
+        <div class="row flex-grow">
+            <div class="col-lg-4 mx-auto">
+                <div class="auth-form-light text-left p-5">
+                    <h4>Halo.. Selamat datang</h4>
+                    <form action="dashboard.php?page=login_proses" method="post" class="pt-3">
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-lg" name="username" placeholder="Username">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control form-control-lg" name="pass" placeholder="Password">
+                        </div>
+                        <div class="mt-3">
+                            <input type="submit" class="btn btn-block btn-gradient-primary btn-lg font-weight-medium auth-form-btn" value="SIGN IN">
+                        </div>
+                    </form>
                 </div>
-            </form>
+            </div>
+            <!-- content-wrapper ends -->
         </div>
+        <!-- page-body-wrapper ends -->
     </div>
 </body>
 
