@@ -14,13 +14,13 @@ include 'header.php';
         <div class="title">
             <h2>Materi</h2>
         </div>
-        <a href="#" class="button">Selengkapnya</a>
+        <a href="dashboard/materi.php" class="button">Selengkapnya</a>
     </div>
     <div id="tbox3"> <span class="icon fa-play"></span>
         <div class="title">
             <h2>Video</h2>
         </div>
-        <a href="#" class="button">Selengkapnya</a>
+        <a href="dashboard/video.php" class="button">Selengkapnya</a>
     </div>
 </div>
 </div>
