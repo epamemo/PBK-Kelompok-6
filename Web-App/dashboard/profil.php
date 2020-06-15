@@ -12,7 +12,7 @@ include 'header.php';
 
             <div class="title">
                 <h2>keterangan</h2>
-                <p> sijanda merupakan aplikasi belajar bahasa sunda dan jawa </p>
+                <p> SIJANDA Sinau bahasa jawa dan sunda </p>
             </div>
         </div>
         <div class="">
@@ -26,7 +26,13 @@ include 'header.php';
 
                             <div>
                                 <p class="t1-s-2 cl-6 m-b-10">
-                                    SIJANDA merupakan erupakan aplikasi belajar bahasa jawa dan sunda
+                                    SIJANDA merupakan platform dimana kita dapat memepalajari bahasa daerah paling umum
+                                    digunakan
+                                    di Indonesia yaitu bahasa Jawa dan Sunda, melalui platform ini kita dapat
+                                    mempelajari mulai dari kosakata seperti kata kerja kata benda pembentukan kalimat
+                                    hingga unggah-ungguhnya. Proses pembelajaran disampaikan melaui kuis sederhana dan
+                                    interaktif serta materi dibuat terstruktur agar setiap orang dapat mempelajarinya
+                                    dengan mudah. Dengan SIJANDA bersama kita melestarikan bahasa daerah
                                 </p>
                             </div>
                         </div>
@@ -38,11 +44,12 @@ include 'header.php';
                             <div>
                                 <p class="t1-s-2 cl-6 m-b-10">
                                     <span class="t1-s-5 cl-3">At present:</span> Visi dan Misi kami adalah mencerdaskan
-                                    berbahasa daerah
+                                    anak-anak daerah dengan mengenalkan
+                                    bahasa daerah.
                                 </p>
                                 <p class="t1-s-2 cl-6 m-b-10">
-                                    <span class="t1-s-5 cl-3">In the future:</span> Visi dan Misi kami adalah menjaga
-                                    kelestarian bahasa daerah
+                                    <span class="t1-s-5 cl-3">In the future:</span> Visi dan Misi kami adalah
+                                    melestarian bahasa daerah di tengah era Modernisasi
                                 </p>
                             </div>
                         </div>
