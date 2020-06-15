@@ -27,7 +27,7 @@
             <div id="menu">
                 <ul>
                     <li class="current_page_item"><a href="#" accesskey="1" title="">Beranda</a></li>
-                    <li><a href="#" accesskey="2" title="">Tentang</a></li>
+                    <li><a href="tentang.php" accesskey="2" title="">Tentang</a></li>
                     <li><a href="#" accesskey="3" title="">Kontak</a></li>
                 </ul>
             </div>
