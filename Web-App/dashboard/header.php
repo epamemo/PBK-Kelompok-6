@@ -28,7 +28,9 @@
             </div>
 
             <ul class="list-unstyled components with-icon">
-                <h3>Welcome</h3>
+                <h3>
+                    <center>Welcome</center>
+                </h3>
                 <li class="active">
                     <a href="#" class="nav-link">
                         <i class="fas fa-home"></i>
