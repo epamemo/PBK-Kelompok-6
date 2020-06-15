@@ -52,16 +52,16 @@ include 'header.php';
             <section class="bg-0 p-t-92 p-b-52">
                 <div class="container">
                     <!-- Title section -->
-                    <div class="flex-col-c-c p-b-50">
+                    <!-- <div class="flex-col-c-c p-b-50">
                         <h3 class="t1-b-1 cl-3 txt-center m-b-11">
                             Meet Our Team
                         </h3>
 
                         <div class="size-a-2 bg-3"></div>
-                    </div>
+                    </div> -->
 
                     <!--  -->
-                    <div class="row justify-content-center">
+                    <!-- <div class="row justify-content-center">
                         <div class="col-sm-6 col-md-5 col-lg-3 p-b-40">
                             <div>
                                 <div class="wrap-pic-w pos-relative">
@@ -170,6 +170,57 @@ include 'header.php';
                             </div>
                         </div>
 
+                    </div> -->
+                    <div id="wrapper3">
+                        <div id="portfolio" class="container">
+                            <div class="title">
+                                <h2> Meet Our Team</h2>
+                            </div>
+                            <div class="continer">
+                                <div class="">
+                                    <div class="box"> <a href="#"><img src="images/scr01.jpg" alt=""
+                                                class="image image-full" /></a>
+                                        <h3>M Zakki Mahatir</h3>
+                                        <p>4611417047</p>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="box"> <a href="#"><img src="images/scr01.jpg" alt=""
+                                                class="image image-full" /></a>
+                                        <h3>Ibnu Azam Alfansuri</h3>
+                                        <p>4611417051</p>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="box"> <a href="#"><img src="images/scr01.jpg" alt=""
+                                                class="image image-full" /></a>
+                                        <h3>Sulthan Daffa Firzatullah</h3>
+                                        <p>4611417055</p>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="box"> <a href="#"><img src="images/scr01.jpg" alt=""
+                                                class="image image-full" /></a>
+                                        <h3>Nur Hilmi Insan Muhammad</h3>
+                                        <p>4611417062</p>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="box"> <a href="#"><img src="images/scr01.jpg" alt=""
+                                                class="image image-full" /></a>
+                                        <h3>Angga Adiansya</h3>
+                                        <p>4611417063</p>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="box"> <a href="#"><img src="images/scr01.jpg" alt=""
+                                                class="image image-full" /></a>
+                                        <h3>Epafraditus Memoriano</h3>
+                                        <p>4611417070</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
