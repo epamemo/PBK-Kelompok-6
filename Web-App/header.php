@@ -21,12 +21,9 @@
 <body>
     <div id="header-wrapper">
         <div id="header" class="container">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            <div id="logo">
+                <img src="../4x/logo-w-completed@4x.png" alt="" width="750px">
+            </div>
             <div id="menu">
                 <ul>
                     <li class="current_page_item"><a href="#" accesskey="1" title="">Beranda</a></li>
@@ -36,8 +33,5 @@
             </div>
             <br>
             <br>
-            <div id="logo">
-                <img src="../4x/logo-w-completed@4x.png" alt="" width="750px">
-            </div>
         </div>
     </div>
