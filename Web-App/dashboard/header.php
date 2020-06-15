@@ -32,7 +32,7 @@
                     <center>Welcome</center>
                 </h3>
                 <li class="active">
-                    <a href="#" class="nav-link">
+                    <a href="index.php" class="nav-link">
                         <i class="fas fa-home"></i>
                         <span class="with-icon">Dashboard</span>
                     </a>
@@ -60,9 +60,7 @@
                         <i class="fas fa-align-left"></i>
                         <span>Menu</span>
                     </button>
-                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-align-justify"></i>
                     </button>
 
