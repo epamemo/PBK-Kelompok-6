@@ -29,7 +29,7 @@ include 'header.php';
         <div class="title">
             <h2>Tentang</h2>
         </div>
-        <p>SIJANDA adalah Sinau Jawa Dan Sunda</p>
+        <p>SIJANDA adalah platform dimana kita dapat memepalajari bahasa daerah paling umum digunakan di Indonesia yaitu bahasa Jawa dan Sunda, melalui platform ini kita dapat mempelajari mulai dari kosakata seperti kata kerja kata benda pembentukan kalimat hingga unggah-ungguhnya. Proses pembelajaran disampaikan melaui kuis sederhana dan interaktif serta materi dibuat terstruktur agar setiap orang dapat mempelajarinya dengan mudah. Dengan SIJANDA bersama kita melestarikan bahasa daerah</p>
     </div>
     <div id="welcome" class="container"></div>
 </div>
