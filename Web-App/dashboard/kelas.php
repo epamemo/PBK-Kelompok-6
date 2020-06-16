@@ -1,1 +1,7 @@
-kelas.php belum selesai
+<?php
+    include 'header.php'
+?>
+
+<?php
+    include 'footer.php'
+?>
