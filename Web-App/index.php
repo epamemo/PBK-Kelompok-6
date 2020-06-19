@@ -2,37 +2,57 @@
 include 'header.php';
 ?>
 
-<div id="three-column" class="container">
-    <div><span class="arrow-down"></span></div>
-    <div id="tbox1"> <span class="icon fa-gamepad"></span>
-        <div class="title">
-            <h2>Games</h2>
+<!-- Services-->
+<section class="page-section bg-light mt-5" id="services">
+    <div class="container my-5">
+        <h2 class="text-center mt-0 text-primary">At Your Service</h2>
+        <hr class="divider my-4" />
+        <div class="row">
+            <div class="col-lg col-md text-center">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-gamepad text-primary mb-4"></i>
+                    <h3 class="h4 mb-2">Games</h3>
+                    <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                </div>
+            </div>
+            <div class="col-lg col-md text-center">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-book text-primary mb-4"></i>
+                    <h3 class="h4 mb-2">Materi</h3>
+                    <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+                </div>
+            </div>
+            <div class="col-lg col-md text-center">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-play text-primary mb-4"></i>
+                    <h3 class="h4 mb-2">Video</h3>
+                    <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+                </div>
+            </div>
         </div>
-        <a href="#" class="button">Selengkapnya</a>
     </div>
-    <div id="tbox2"> <span class="icon fa-book"></span>
-        <div class="title">
-            <h2>Materi</h2>
+</section>
+
+<!-- About-->
+<section class="page-section bg-primary" id="about">
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="text-white mt-0">Tentang</h2>
+                <hr class="divider light my-4" />
+                <p class="text-white-50 mb-4">SIJANDA adalah platform dimana kita dapat memepalajari
+                    bahasa daerah paling umum digunakan di Indonesia yaitu bahasa Jawa dan Sunda,
+                    melalui platform ini kita dapat mempelajari mulai dari kosakata seperti kata
+                    kerja kata benda pembentukan kalimat hingga unggah-ungguhnya. Proses pembelajaran
+                    disampaikan melaui kuis sederhana dan interaktif serta materi dibuat terstruktur
+                    agar setiap orang dapat mempelajarinya dengan mudah. Dengan SIJANDA bersama kita melestarikan
+                    bahasa daerah</p>
+                <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Selengkapnya</a>
+            </div>
         </div>
-        <a href="dashboard/materi.php" class="button">Selengkapnya</a>
     </div>
-    <div id="tbox3"> <span class="icon fa-play"></span>
-        <div class="title">
-            <h2>Video</h2>
-        </div>
-        <a href="dashboard/video.php" class="button">Selengkapnya</a>
-    </div>
-</div>
-</div>
-<div id="wrapper2">
-    <div id="welcome" class="container">
-        <div class="title">
-            <h2>Tentang</h2>
-        </div>
-        <p>SIJANDA adalah platform dimana kita dapat memepalajari bahasa daerah paling umum digunakan di Indonesia yaitu bahasa Jawa dan Sunda, melalui platform ini kita dapat mempelajari mulai dari kosakata seperti kata kerja kata benda pembentukan kalimat hingga unggah-ungguhnya. Proses pembelajaran disampaikan melaui kuis sederhana dan interaktif serta materi dibuat terstruktur agar setiap orang dapat mempelajarinya dengan mudah. Dengan SIJANDA bersama kita melestarikan bahasa daerah</p>
-    </div>
-    <div id="welcome" class="container"></div>
-</div>
+</section>
+
 <div id="wrapper3">
     <div id="portfolio" class="container">
         <div class="title">
