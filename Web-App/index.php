@@ -12,21 +12,21 @@ include 'header.php';
                 <div class="mt-5">
                     <i class="fas fa-4x fa-gamepad text-primary mb-4"></i>
                     <h3 class="h4 mb-2">Games</h3>
-                    <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                    <p class="text-muted mb-0">Berupa permainan yang akan menuntun kamu untuk belajar bahasa Jawa dan Sunda</p>
                 </div>
             </div>
             <div class="col-lg col-md text-center">
                 <div class="mt-5">
                     <i class="fas fa-4x fa-book text-primary mb-4"></i>
                     <h3 class="h4 mb-2">Materi</h3>
-                    <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+                    <p class="text-muted mb-0">Seperti sebuah kamus atau tulisan aksara Jawa dan Sunda serta arti kata tersebut</p>
                 </div>
             </div>
             <div class="col-lg col-md text-center">
                 <div class="mt-5">
                     <i class="fas fa-4x fa-play text-primary mb-4"></i>
                     <h3 class="h4 mb-2">Video</h3>
-                    <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+                    <p class="text-muted mb-0">Tentang tutorial yang akan membantu bagaimana cara mengucapkan kata</p>
                 </div>
             </div>
         </div>
@@ -53,47 +53,69 @@ include 'header.php';
     </div>
 </section>
 
-<div id="wrapper3">
-    <div id="portfolio" class="container">
-        <div class="title">
-            <h2>Anggota Kelompok</h2>
-        </div>
-        <div class="continer">
-            <div class="">
-                <div class="box"> <a href="#"><img src="images/scr01.jpg" alt="" class="image image-full" /></a>
-                    <h3>M Zakki Mahatir</h3>
-                    <p>4611417047</p>
-                </div>
+<section class="page-section bg-light text-primary">
+    <div class="container text-center">
+        <h2 class="">Anggota Kelompok</h2>
+        <!-- <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a> -->
+    </div>
+</section>
+<!-- Portfolio-->
+<div id="portfolio">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="image/zakki.jpg">
+                    <img class="img-fluid" src="image/zakki.jpg" alt="" />
+                    <div class="portfolio-box-caption">
+                        <h5 class="project-category text-white-50">4611417047</h5>
+                        <h3 class="project-name text-white">M Zakki Mahatir</h3>
+                    </div>
+                </a>
             </div>
-            <div class="">
-                <div class="box"> <a href="#"><img src="images/scr01.jpg" alt="" class="image image-full" /></a>
-                    <h3>Ibnu Azam Alfansuri</h3>
-                    <p>4611417051</p>
-                </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="image/ibnu.JPG">
+                    <img class="img-fluid" src="image/ibnu.JPG" alt="" />
+                    <div class="portfolio-box-caption">
+                        <h5 class="project-category text-white-50">4611417051</h5>
+                        <h3 class="project-name text-white">Ibnu Azam Alfansuri</h3>
+                    </div>
+                </a>
             </div>
-            <div class="">
-                <div class="box"> <a href="#"><img src="images/scr01.jpg" alt="" class="image image-full" /></a>
-                    <h3>Sulthan Daffa Firzatullah</h3>
-                    <p>4611417055</p>
-                </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="image/daffa.JPG">
+                    <img class="img-fluid" src="image/daffa.JPG" alt="" />
+                    <div class="portfolio-box-caption">
+                        <h5 class="project-category text-white-50">4611417055</h5>
+                        <h3 class="project-name text-white">Sulthan Daffa Firzatullah</h3>
+                    </div>
+                </a>
             </div>
-            <div class="">
-                <div class="box"> <a href="#"><img src="images/scr01.jpg" alt="" class="image image-full" /></a>
-                    <h3>Nur Hilmi Insan Muhammad</h3>
-                    <p>4611417062</p>
-                </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="image/hilmi.JPG">
+                    <img class="img-fluid" src="image/hilmi.JPG" alt="" />
+                    <div class="portfolio-box-caption">
+                        <h5 class="project-category text-white-50">4611417062</h5>
+                        <h3 class="project-name text-white">Nur Hilmi Insan Muhammad</h3>
+                    </div>
+                </a>
             </div>
-            <div class="">
-                <div class="box"> <a href="#"><img src="images/scr01.jpg" alt="" class="image image-full" /></a>
-                    <h3>Angga Adiansya</h3>
-                    <p>4611417063</p>
-                </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="image/angga.jpeg">
+                    <img class="img-fluid" src="image/angga.jpeg" alt="" />
+                    <div class="portfolio-box-caption">
+                        <h5 class="project-category text-white-50">4611417063</h5>
+                        <h3 class="project-name text-white">Angga Adiansya</h3>
+                    </div>
+                </a>
             </div>
-            <div class="">
-                <div class="box"> <a href="#"><img src="images/scr01.jpg" alt="" class="image image-full" /></a>
-                    <h3>Epafraditus Memoriano</h3>
-                    <p>4611417070</p>
-                </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="image/epa.JPG">
+                    <img class="img-fluid" src="image/epa.JPG" alt="" />
+                    <div class="portfolio-box-caption p-3">
+                        <h5 class="project-category text-white-50">4611417070</h5>
+                        <h3 class="project-name text-white">Epafraditus Memoriano</h3>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

@@ -1,9 +1,9 @@
-<section class="page-section bg-light" id="wrapper4">
+<section class="page-section bg-light">
     <div class="container" id="footer">
         <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
+            <div class="col-lg text-center">
                 <header class="title">
-                    <h2 class="mt-0 text-primary">#TEMANSEJANDA</h2>
+                    <h2 class=" text-primary">#TEMANSEJANDA</h2>
                     <hr class="divider my-4" />
                     <p class="text-muted mb-5">MUDA, GRATIS, NYAMAN, ENAK, MANTAP, MAKYUS <br> BEEUUHHH YEEEKAANN</p>
                 </header>
