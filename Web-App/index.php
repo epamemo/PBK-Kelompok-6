@@ -20,7 +20,7 @@ include 'header.php';
 <!-- Services-->
 <section class="page-section bg-light mt-5" id="services">
     <div class="container my-5">
-        <h2 class="text-center mt-0 text-primary">At Your Service</h2>
+        <h2 class="text-center mt-0 text-primary">Fitur siJanda</h2>
         <hr class="divider my-4" />
         <div class="row">
             <div class="col-lg col-md text-center">
@@ -125,8 +125,8 @@ include 'header.php';
                 </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="image/epa.JPG">
-                    <img class="img-fluid" src="image/epa.JPG" alt="" />
+                <a class="portfolio-box" href="image/epa2.jpg">
+                    <img class="img-fluid" src="image/epa2.jpg" alt="" />
                     <div class="portfolio-box-caption p-3">
                         <h5 class="project-category text-white-50">4611417070</h5>
                         <h3 class="project-name text-white">Epafraditus Memoriano</h3>

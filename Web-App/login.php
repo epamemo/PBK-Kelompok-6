@@ -55,7 +55,7 @@
                                                 <label class="custom-control-label" for="customCheck">Ingat aku sayang</label>
                                             </div>
                                         </div>
-                                        <a href="index.html" class="btn btn-primary btn-user btn-block">
+                                        <a href="dashboard/index.php" class="btn btn-primary btn-user btn-block">
                                             Masuk
                                         </a>
                                     </div>
