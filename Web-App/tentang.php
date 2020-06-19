@@ -7,7 +7,7 @@ include 'header.php';
     <ul>
         <li><a href="index.php" accesskey="1" title="">Beranda</a></li>
         <li class="current_page_item"><a href="tentang.php" accesskey="2" title="">Tentang</a></li>
-        <li><a href="#" accesskey="3" title="">Anggota</a></li>
+        <li><a href="anggota.php" accesskey="3" title="">Anggota</a></li>
     </ul>
 </div>
 <div class="col-lg-8 align-self-baseline">
@@ -30,8 +30,8 @@ include 'header.php';
                     melalui platform ini kita dapat mempelajari mulai dari kosakata seperti kata
                     kerja kata benda pembentukan kalimat hingga unggah-ungguhnya. Proses pembelajaran
                     disampaikan melaui kuis sederhana dan interaktif serta materi dibuat terstruktur
-                    agar setiap orang dapat mempelajarinya dengan mudah. Dengan SIJANDA bersama kita melestarikan
-                    bahasa daerah</p>
+                    agar setiap orang dapat mempelajarinya dengan mudah. Dengan SIJANDA bersama kita
+                    melestarikan bahasa daerah</p>
             </div>
         </div>
     </div>
