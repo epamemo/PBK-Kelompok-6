@@ -34,17 +34,3 @@
                 <div id="logo">
                     <img src="../4x/logo-w-completed@4x.png" alt="" width="750px">
                 </div>
-                <div id="menu">
-                    <ul>
-                        <li class="current_page_item"><a href="index.php" accesskey="1" title="">Beranda</a></li>
-                        <li><a href="tentang.php" accesskey="2" title="">Tentang</a></li>
-                        <li><a href="#" accesskey="3" title="">Anggota</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-8 align-self-baseline">
-                    <a class="btn btn-light btn-xl js-scroll-trigger mx-2 my-2" href="login.php">Masuk</a>
-                    <a class="btn btn-primary2 btn-xl js-scroll-trigger mx-2 my-2" href="daftar.php">Daftar</a>
-                </div>
-            </div>
-        </div>
-    </header>

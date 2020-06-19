@@ -2,6 +2,21 @@
 include 'header.php';
 ?>
 
+<div id="menu">
+    <ul>
+        <li class="current_page_item"><a href="index.php" accesskey="1" title="">Beranda</a></li>
+        <li><a href="tentang.php" accesskey="2" title="">Tentang</a></li>
+        <li><a href="#" accesskey="3" title="">Anggota</a></li>
+    </ul>
+</div>
+<div class="col-lg-8 align-self-baseline">
+    <a class="btn btn-light btn-xl js-scroll-trigger mx-2 my-2" href="login.php">Masuk</a>
+    <a class="btn btn-primary2 btn-xl js-scroll-trigger mx-2 my-2" href="daftar.php">Daftar</a>
+</div>
+</div>
+</div>
+</header>
+
 <!-- Services-->
 <section class="page-section bg-light mt-5" id="services">
     <div class="container my-5">
@@ -47,7 +62,7 @@ include 'header.php';
                     disampaikan melaui kuis sederhana dan interaktif serta materi dibuat terstruktur
                     agar setiap orang dapat mempelajarinya dengan mudah. Dengan SIJANDA bersama kita melestarikan
                     bahasa daerah</p>
-                <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Selengkapnya</a>
+                <a class="btn btn-light btn-xl js-scroll-trigger" href="tentang.php">Selengkapnya</a>
             </div>
         </div>
     </div>
