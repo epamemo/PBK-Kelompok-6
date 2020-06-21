@@ -68,8 +68,8 @@ include 'header.php';
                 </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="image/epa.JPG">
-                    <img class="img-fluid" src="image/epa.JPG" alt="" />
+                <a class="portfolio-box" href="image/epa2.JPG">
+                    <img class="img-fluid" src="image/epa2.JPG" alt="" />
                     <div class="portfolio-box-caption p-3">
                         <h5 class="project-category text-white-50">4611417070</h5>
                         <h3 class="project-name text-white">Epafraditus Memoriano</h3>
