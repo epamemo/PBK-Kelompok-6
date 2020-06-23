@@ -3,7 +3,6 @@ include 'config.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -20,10 +19,10 @@ include 'config.php';
     <!-- Third party plugin CSS-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="assest/css/styles.css" rel="stylesheet" />
+    <link href="assets/css/styles.css" rel="stylesheet" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="assest/css/default.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="assest/css/fonts.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/default.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/fonts.css" rel="stylesheet" type="text/css" media="all" />
 
 </head>
 
@@ -42,7 +41,7 @@ include 'config.php';
                         <div class="row">
                             <div class="col-lg">
                                 <div class="p-5">
-                                    <div class="text-center">
+                                <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Selamat Datang</h1>
                                     </div>
                                     <div class="user">
@@ -98,7 +97,7 @@ include 'config.php';
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <!-- Core theme JS-->
-    <script src="assest/js/scripts.js"></script>
+    <script src="assets/js/scripts.js"></script>
 
 </body>
 
