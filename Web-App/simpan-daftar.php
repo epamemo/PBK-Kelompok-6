@@ -11,7 +11,7 @@ $password=md5($_POST["Pwd"]); //untuk password digunakan enskripsi md5
 
 
 //Query input menginput data kedalam tabel anggota
-  $sql="insert into anggota (Nama,E_mail, Level, Pwd) values
+  $sql="insert into user (Nama,E_mail, Level, Pwd) values
 		('$Nama','$E_mail','$Level','$Pwd')";
 
 //Mengeksekusi/menjalankan query diatas	
