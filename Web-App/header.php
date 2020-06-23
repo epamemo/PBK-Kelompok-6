@@ -17,10 +17,10 @@
     <!-- Third party plugin CSS-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="assest/css/styles.css" rel="stylesheet" />
+    <link href="assets/css/styles.css" rel="stylesheet" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="assest/css/default.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="assest/css/fonts.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/default.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/fonts.css" rel="stylesheet" type="text/css" media="all" />
 
     <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
