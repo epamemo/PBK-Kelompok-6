@@ -9,7 +9,7 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
                 <div class="sidebar-brand-icon">
-                    <img src="../image/logo-w-completed@4x.png" alt="Logo" width="45%" class="logo-extended">
+                    <img src="../../image/logo-w-completed@4x.png" alt="Logo" width="45%" class="logo-extended">
                 </div>
             </a>
 
