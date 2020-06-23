@@ -17,10 +17,10 @@
     <!-- Third party plugin CSS-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="assest/css/styles.css" rel="stylesheet" />
+    <link href="assets/css/styles.css" rel="stylesheet" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="assest/css/default.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="assest/css/fonts.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/default.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/fonts.css" rel="stylesheet" type="text/css" media="all" />
 
 </head>
 
@@ -42,29 +42,23 @@
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Buat Akun</h1>
                                     </div>
-                                    <div class="user">
-                                        <div class="form-group row">
-                                            <div class="col-sm-6 mb-3 mb-sm-0">
-                                                <input type="text" class="form-control form-control-user" id="exampleFirstName" placeholder="First Name">
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <input type="text" class="form-control form-control-user" id="exampleLastName" placeholder="Last Name">
-                                            </div>
+                                   <form action="simpan-daftar.php" method="post">
+                                   <div class="user" >
+                                        <div class="form-group">
+                                            <input type="text" name="Nama" class="form-control form-control-user" id="exampleFirstName" placeholder="Name">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email Address">
+                                            <input type="E-mail" name="E_mail"class="form-control form-control-user" id="exampleInputEmail" placeholder="Email Address">
                                         </div>
                                         <div class="form-group row">
                                             <div class="col-sm-6 mb-3 mb-sm-0">
-                                                <input type="text" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
+                                                <input type="Password" name="Pwd" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
                                             </div>
                                             <div class="col-sm-6">
-                                                <input type="text" class="form-control form-control-user" id="exampleRepeatPassword" placeholder="Repeat Password">
+                                                <input type="Password" name="Pwd" class="form-control form-control-user" id="exampleRepeatPassword" placeholder="Repeat Password">
                                             </div>
                                         </div>
-                                        <a href="login.php" class="btn btn-primary btn-user btn-block">
-                                            Daftar
-                                        </a>
+                                        <button type="submit" name="submit" class="btn btn-primary btn-user btn-block">Submit</button>
                                     </div>
                                     <hr>
                                     <div class="text-center small">
@@ -74,6 +68,7 @@
                                         <a class="small" href="index.php">Beranda</a>
                                     </div>
                                 </div>
+                                   </form>
                             </div>
                         </div>
                     </div>
