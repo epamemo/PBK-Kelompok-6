@@ -1,3 +1,6 @@
+<?php
+    include'config.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -55,7 +58,7 @@
                                                 <label class="custom-control-label" for="customCheck">Ingat aku sayang</label>
                                             </div>
                                         </div>
-                                        <a href="dashboard/index.php" class="btn btn-primary btn-user btn-block">
+                                        <a href="cek_login.php" class="btn btn-primary btn-user btn-block">
                                             Masuk
                                         </a>
                                     </div>
@@ -75,7 +78,17 @@
             </div>
 
         </div>
-
+        <?php 
+	if(isset($_GET['pesan'])){
+		if($_GET['pesan'] == "gagal"){
+			echo "Login gagal! Email dan password salah!";
+		}else if($_GET['pesan'] == "logout"){
+			echo "Anda telah berhasil logout";
+		}else if($_GET['pesan'] == "belum_login"){
+			echo "Anda harus login untuk mengakses halaman admin";
+		}
+	}
+	?>
     </div>
 
     <!-- Bootstrap core JS-->
