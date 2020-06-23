@@ -80,8 +80,8 @@ include 'header.php';
     <div class="container-fluid p-0">
         <div class="row no-gutters">
             <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="image/zakki.jpg">
-                    <img class="img-fluid" src="image/zakki.jpg" alt="" />
+                <a class="portfolio-box" href="assets/image/zakki.jpg">
+                    <img class="img-fluid" src="assets/image/zakki.jpg" alt="" />
                     <div class="portfolio-box-caption">
                         <h5 class="project-category text-white-50">4611417047</h5>
                         <h3 class="project-name text-white">M Zakki Mahatir</h3>
@@ -89,8 +89,8 @@ include 'header.php';
                 </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="image/ibnu.JPG">
-                    <img class="img-fluid" src="image/ibnu.JPG" alt="" />
+                <a class="portfolio-box" href="assets/image/ibnu.JPG">
+                    <img class="img-fluid" src="assets/image/ibnu.JPG" alt="" />
                     <div class="portfolio-box-caption">
                         <h5 class="project-category text-white-50">4611417051</h5>
                         <h3 class="project-name text-white">Ibnu Azam Alfansuri</h3>
@@ -98,8 +98,8 @@ include 'header.php';
                 </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="image/daffa.JPG">
-                    <img class="img-fluid" src="image/daffa.JPG" alt="" />
+                <a class="portfolio-box" href="assets/image/daffa.JPG">
+                    <img class="img-fluid" src="assets/image/daffa.JPG" alt="" />
                     <div class="portfolio-box-caption">
                         <h5 class="project-category text-white-50">4611417055</h5>
                         <h3 class="project-name text-white">Sulthan Daffa Firzatullah</h3>
@@ -107,8 +107,8 @@ include 'header.php';
                 </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="image/hilmi.JPG">
-                    <img class="img-fluid" src="image/hilmi.JPG" alt="" />
+                <a class="portfolio-box" href="assets/image/hilmi.JPG">
+                    <img class="img-fluid" src="assets/image/hilmi.JPG" alt="" />
                     <div class="portfolio-box-caption">
                         <h5 class="project-category text-white-50">4611417062</h5>
                         <h3 class="project-name text-white">Nur Hilmi Insan Muhammad</h3>
@@ -116,8 +116,8 @@ include 'header.php';
                 </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="image/angga.jpeg">
-                    <img class="img-fluid" src="image/angga.jpeg" alt="" />
+                <a class="portfolio-box" href="assets/image/angga.jpeg">
+                    <img class="img-fluid" src="assets/image/angga.jpeg" alt="" />
                     <div class="portfolio-box-caption">
                         <h5 class="project-category text-white-50">4611417063</h5>
                         <h3 class="project-name text-white">Angga Adiansya</h3>
@@ -125,8 +125,8 @@ include 'header.php';
                 </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="image/epa2.jpg">
-                    <img class="img-fluid" src="image/epa2.jpg" alt="" />
+                <a class="portfolio-box" href="assets/image/epa2.JPG">
+                    <img class="img-fluid" src="assets/image/epa2.JPG" alt="" />
                     <div class="portfolio-box-caption p-3">
                         <h5 class="project-category text-white-50">4611417070</h5>
                         <h3 class="project-name text-white">Epafraditus Memoriano</h3>
