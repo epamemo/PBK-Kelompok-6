@@ -19,7 +19,7 @@ include 'header.php';
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
                             <div class="text-primary card-title h4">Level 1</div>
-                            <div class="card-text h6 mb-4">Pengenalan mengenai alphabet dalam Bahasa Sunda</div>
+                            <div class="card-text h6 mb-4">Pengenalan mengenai alphabet dalam Bahasa Jawa</div>
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,8 @@ include 'header.php';
     <!-- /.container-fluid -->
 
     <!-- Level 1 Modal-->
-    <div class="modal fade" id="level1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="level1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -98,7 +99,8 @@ include 'header.php';
 
 
     <!-- Level 1 Modal-->
-    <div class="modal fade" id="level2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="level2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
