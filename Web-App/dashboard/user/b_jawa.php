@@ -14,38 +14,65 @@ include 'header.php';
     <div class="row">
 
         <div class="col-xl mb-4">
-            <div class="card border-left-primary shadow h-100 py-2">
+            <div class="card border-bottom-primary shadow">
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Selamat Datang!</div>
-                            <div class="h1 mb-0 font-weight-bold text-gray-800">Hai Sultan, Ayo lanjutkan belajarnya!</div>
+                            <div class="text-primary card-title h4">Level 1</div>
+                            <div class="card-text h6 mb-4">Pengenalan mengenai alphabet dalam Bahasa Sunda</div>
                         </div>
                     </div>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Mulai</a>
                 </div>
             </div>
         </div>
         <div class="col-xl mb-4">
-            <div class="card border-left-primary shadow h-100 py-2">
+            <div class="card border-bottom-primary shadow">
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Selamat Datang!</div>
-                            <div class="h1 mb-0 font-weight-bold text-gray-800">Hai Sultan, Ayo lanjutkan belajarnya!</div>
+                            <div class="text-primary card-title h4">Level 2</div>
+                            <div class="card-text h6 mb-4">Pengenalan kosakata yang digunakan sehari-hari</div>
+                            <a href="#" class="btn btn-primary">Mulai</a>
                         </div>
                     </div>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Mulai</a>
                 </div>
             </div>
         </div>
         <div class="col-xl mb-4">
-            <div class="card border-left-primary shadow h-100 py-2">
+            <div class="card border-bottom-primary shadow">
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Selamat Datang!</div>
-                            <div class="h1 mb-0 font-weight-bold text-gray-800">Hai Sultan, Ayo lanjutkan belajarnya!</div>
+                            <div class="text-primary card-title h4">Level 3</div>
+                            <div class="card-text h6 mb-4">Penyusunan kosakata dalam membuat kalimat pernyataan</div>
+                            <a href="#" class="btn btn-primary">Mulai</a>
                         </div>
                     </div>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Mulai</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl mb-4">
+            <div class="card border-bottom-primary shadow">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-primary card-title h4">Level 4</div>
+                            <div class="card-text h6 mb-4">Penyusunan kosakata dalam membuat kalimat pertanyaan.</div>
+                            <a href="#" class="btn btn-primary">Mulai</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Mulai</a>
                 </div>
             </div>
         </div>
