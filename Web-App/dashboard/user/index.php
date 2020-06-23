@@ -3,7 +3,7 @@ include 'header.php';
 ?>
 
 <!-- Begin Page Content -->
-<div class="container-fluid">
+<div class="container">
 
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
@@ -33,7 +33,7 @@ include 'header.php';
 
         <!-- Area Chart -->
         <div class="col-xl mb-4">
-            <a href="level.php" class="btn btn-blue shadow py-5 px-5" style="width: 100%; height:58vh; font-size:5vw;">
+            <a href="level.php" class="btn btn-blue shadow h-100 py-2" style="font-size:4vw;">
                 <div class="card-body">
                     <div class="align-items-center">
                         <div class="col mr-2">
@@ -45,7 +45,7 @@ include 'header.php';
         </div>
 
         <div class="col-xl mb-4">
-            <a href="level.php" class="btn btn-success shadow py-5 px-5" style="width: 100%; height:58vh; font-size:5vw;">
+            <a href="level.php" class="btn btn-success shadow h-100 py-2" style="font-size:4vw;">
                 <div class="card-body">
                     <div class="align-items-center">
                         <div class="col mr-2">
