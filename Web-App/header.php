@@ -29,8 +29,8 @@
 <body id="page-top">
 
     <header class="masthead">
-        <div class="container">
+        <div class="container" style="size: 100vh;">
             <div class="row align-items-center justify-content-center text-center">
-                <div id="logo">
+                <div id="">
                     <img src="../4x/logo-w-completed@4x.png" alt="" width="750px">
                 </div>
