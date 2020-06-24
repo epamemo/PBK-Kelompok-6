@@ -62,9 +62,9 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="input_kuis.php">
                     <i class="fas fa-fw fa-pencil-alt"></i>
-                    <span>Latihan</span></a>
+                    <span>Input Kuis</span></a>
             </li>
 
             <!-- Divider -->
