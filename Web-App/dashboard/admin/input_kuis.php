@@ -8,6 +8,17 @@ include 'header.php';
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
         <h1 class="h3 mb-0 text-gray-800">Input Kuis</h1>
+        <div class="text-center">
+            <?php
+            if (isset($_GET['pesan'])) {
+                if ($_GET['pesan'] == "berhasil") {
+                    echo "Kuis berhasil dimasukanr";
+                } else if ($_GET['pesan'] == "gagal") {
+                    echo "Kuis gagal dimasukan";
+                }
+            }
+            ?>
+        </div>
     </div>
 
 
@@ -18,17 +29,17 @@ include 'header.php';
             <form action="submit_kuis.php" method="post">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Soal</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                    <input name="soal" type="text" class="form-control" id="exampleInputEmail1" required>
                 </div>
                 <div class="form-group">
                     <label for="jawaban1">Jawaban 1</label>
-                    <input type="text" class="form-control" id="jawaban1" required>
+                    <input name="jawaban" type="text" class="form-control" id="jawaban1" required>
                 </div>
                 <div class="form-group">
                     <label for="level">Level</label>
-                    <input type="text" class="form-control" id="level" required>
+                    <input name="level" type="text" class="form-control" id="level" required>
                 </div>
-                <select class="form-control form-control-lg">
+                <select name="bahasa" class="form-control form-control-lg">
                     <option value="jawa">Jawa</option>
                     <option value="sunda">Sunda</option>
                 </select>
