@@ -8,8 +8,9 @@ include 'header.php';
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
         <h1 class="h3 mb-0 text-gray-800">Belajar Bahasa Sunda</h1>
-        <a href="index.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                class="fas fa-arrow-left fa-sm text-white-50"></i> Kembali</a>
+        <a href="index.php" class="d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+            <i class="fas fa-arrow-left fa-sm text-white-50"></i> Kembali
+        </a>
     </div>
 
     <!-- Content Row -->
@@ -79,8 +80,7 @@ include 'header.php';
     </div>
     <!-- /.container-fluid -->
     <!-- Level 1 Modal-->
-    <div class="modal fade" id="level1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="level1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -99,8 +99,7 @@ include 'header.php';
         </div>
     </div>
     <!-- Level 2 Modal-->
-    <div class="modal fade" id="level2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="level2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -119,8 +118,7 @@ include 'header.php';
         </div>
     </div>
     <!-- Level 3 Modal-->
-    <div class="modal fade" id="level3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="level3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -139,8 +137,7 @@ include 'header.php';
         </div>
     </div>
     <!-- Level 4 Modal-->
-    <div class="modal fade" id="level4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="level4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">

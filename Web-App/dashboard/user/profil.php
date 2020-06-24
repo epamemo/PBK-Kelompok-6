@@ -2,19 +2,20 @@
 include 'header.php';
 ?>
 
-<div class="container-fluid col-lg-10" align="center">
+<div class="container" align="center">
 
     <div class="row container m-4 py-5">
         <!-- Earnings (Monthly) Card Example -->
-        <div class="mr-5" align="center">
-            <div class="card border-bottom-primary shadow p-3">
+        <div class="mr-5">
+            <div class="card border-bottom-primary shadow p-3" style="height: auto;">
                 <div class="card-body">
                     <img class="rounded-circle" src="assets/img/default-user-icon.jpg" alt="Profile" width="200px">
-                    <div class="h3 mt-3 font-weight-bold text-gray-800"><?php
-                                                                        echo $_SESSION['Nama'];
-                                                                        ?></div>
+                    <div class="h3 mt-3 font-weight-bold text-gray-800"><?php echo $_SESSION['Nama']; ?></div>
                 </div>
             </div>
+            <a href="index.php" class="d-sm-inline-block btn btn-sm btn-primary shadow-sm my-3">
+                <i class="fas fa-arrow-left fa-sm text-white-50"></i> Kembali
+            </a>
         </div>
 
         <div class="col-lg mx-auto my-auto text-left">
@@ -33,9 +34,7 @@ include 'header.php';
                         <tr>
                             <td>Nama</td>
                             <td>:</td>
-                            <td><?php
-                                echo $_SESSION['Nama'];
-                                ?></td>
+                            <td><?php echo $_SESSION['Nama']; ?></td>
                         </tr>
                         <tr>
                             <td>Email</td>
