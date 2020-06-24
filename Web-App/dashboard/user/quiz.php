@@ -27,7 +27,7 @@ $quiz = mysqli_fetch_assoc($kuis);
             <form action="submit_kuis.php" method="post">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Soal</label>
-                    <input type="hidden" value="<?= $quiz['id_kuis']; ?>">
+                    <input name="id_kuis" type="hidden" value="<?= $quiz['id_kuis']; ?>">
                     <input name="soal" type="text" class="form-control" id="exampleInputEmail1" value="<?= $quiz['Soal']; ?>" disabled>
                 </div>
                 <div class="form-group">

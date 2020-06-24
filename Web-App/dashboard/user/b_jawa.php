@@ -4,6 +4,21 @@ include 'header.php';
 
 <!-- Begin Page Content -->
 <div class="container">
+    <?php
+    if (isset($_GET['pesan'])) {
+        if ($_GET['pesan'] == 'berhasil') {
+            # code...
+            echo '<div class="alert alert-success" role="alert">
+            Jawaban Benar
+          </div>';
+        } else {
+            # code...
+            echo '<div class="alert alert-danger" role="alert">
+            Jawaban salah
+          </div>';
+        }
+    }
+    ?>
 
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
