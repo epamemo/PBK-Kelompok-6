@@ -18,7 +18,7 @@ include 'header.php';
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            Selamat Datang<?php echo $_SESSION['E_mail']; ?>
+                            Selamat Datang<?php echo $_SESSION['Nama']; ?>
                         </div>
                     </div>
                 </div>

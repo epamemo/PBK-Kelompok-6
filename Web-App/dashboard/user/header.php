@@ -17,8 +17,11 @@
 
     <!-- Custom styles for this template-->
     <link href="assets/css/sb-admin-2.css" rel="stylesheet">
-    <?
-       include '.../PBK-Kelompok-6/Web-App/cek_login.php';
+    <?php
+    session_start();
+    if (!isset($_SESSION['E_mail'])) {
+        header("Location: ../../login.php");
+    }
     ?>
 </head>
 
@@ -59,10 +62,9 @@
                 <!-- Nav Item - User Information -->
                 <li class="nav-item dropdown no-arrow">
                     <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="mr-2 d-none d-lg-inline text-gray-600 small">Selamat Datang<?php   
-                                $_SESSION['E_mail'] = $email;
-                                echo $_SESSION['E_mail'];
-                            ?></span>
+                        <span class="mr-2 d-none d-lg-inline text-gray-600 small">Selamat Datang <?php
+                                                                                                    echo $_SESSION['Nama'];
+                                                                                                    ?></span>
                         <img class="img-profile rounded-circle" src="assets/img/default-user-icon.jpg">
                     </a>
                     <!-- Dropdown - User Information -->

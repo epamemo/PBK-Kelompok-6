@@ -1,6 +1,4 @@
 <?php
-// mengaktifkan session php
-session_start();
 
 // menghubungkan dengan koneksi
 include 'config.php';
@@ -15,12 +13,14 @@ $login = mysqli_query($mysqli, "SELECT * from user where E_mail='$E_mail' and Pw
 
 // menghitung jumlah data yang ditemukan
 $cek = mysqli_num_rows($login);
-
+$active_user = mysqli_fetch_assoc($login);
 if ($cek > 0) {
 	session_start();
+	$nama = $active_user['Nama'];
 	$_SESSION['E_mail'] = $E_mail;
+	$_SESSION['Nama'] = $nama;
 	$_SESSION['status'] = "login";
-	header("location:dashboard/user/index.php");
+	//header("location:dashboard/user/index.php");
 } else {
 	header("location:login.php?pesan=gagal");
 }
