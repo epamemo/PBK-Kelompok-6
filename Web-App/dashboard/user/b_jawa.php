@@ -39,7 +39,7 @@ include 'header.php';
                     </div>
                 </div>
                 <div class="card-footer bg-white border-0">
-                    <a href="#" class="btn btn-primary">Mulai</a>
+                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#level2">Mulai</a>
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@ include 'header.php';
                     </div>
                 </div>
                 <div class="card-footer bg-white border-0">
-                    <a href="#" class="btn btn-primary">Mulai</a>
+                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#level3">Mulai</a>
                 </div>
             </div>
         </div>
@@ -69,7 +69,7 @@ include 'header.php';
                     </div>
                 </div>
                 <div class="card-footer bg-white border-0">
-                    <a href="#" class="btn btn-primary">Mulai</a>
+                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#level4">Mulai</a>
                 </div>
             </div>
         </div>
@@ -78,8 +78,7 @@ include 'header.php';
     <!-- /.container-fluid -->
 
     <!-- Level 1 Modal-->
-    <div class="modal fade" id="level1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="level1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -96,23 +95,56 @@ include 'header.php';
             </div>
         </div>
     </div>
-
-
-    <!-- Level 1 Modal-->
-    <div class="modal fade" id="level2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <!-- Level 2 Modal-->
+    <div class="modal fade" id="level2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Pelajari materi atau kerjakan quiz?</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-danger" href="../../index.php">Logout</a>
+                    <a class="btn btn-primary" href="materi2_j.php">Materi</a>
+                    <a class="btn btn-info" href="quiz2_j.php">Quiz</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Level 3 Modal-->
+    <div class="modal fade" id="level3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Pelajari materi atau kerjakan quiz?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary" href="materi3_j.php">Materi</a>
+                    <a class="btn btn-info" href="quiz3_j.php">Quiz</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Level 4 Modal-->
+    <div class="modal fade" id="level4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Pelajari materi atau kerjakan quiz?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary" href="materi4_j.php">Materi</a>
+                    <a class="btn btn-info" href="quiz4_j.php">Quiz</a>
                 </div>
             </div>
         </div>
