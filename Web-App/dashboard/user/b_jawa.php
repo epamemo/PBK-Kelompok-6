@@ -90,7 +90,7 @@ include 'header.php';
                 <div class="modal-body">Silahkan pilih materi untuk mulai belajar. Jika sudah paham dapat melanjutkan mengerjakan quiz.</div>
                 <div class="modal-footer">
                     <a class="btn btn-primary" href="materi1_j.php">Materi</a>
-                    <a class="btn btn-info" href="quiz1_j.php">Quiz</a>
+                    <a class="btn btn-info" href="quiz.php?level=1&bahasa=jawa">Quiz</a>
                 </div>
             </div>
         </div>
