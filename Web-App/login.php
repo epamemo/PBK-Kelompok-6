@@ -44,12 +44,12 @@ include 'config.php';
                                 <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Selamat Datang</h1>
                                     </div>
-                                    <div class="user">
+                                    <form class="user" action="cek_login.php" method="Post">
                                         <div class="form-group">
-                                            <input type="text" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email">
+                                            <input type="text" name="E_mail"class="form-control form-control-user" id="exampleInputEmail" placeholder="Email">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
+                                            <input type="Password" name="Pwd" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
                                         </div>
                                         <div class="form-group">
                                             <div class="custom-control custom-checkbox small">
@@ -57,10 +57,21 @@ include 'config.php';
                                                 <label class="custom-control-label" for="customCheck">Ingat aku sayang</label>
                                             </div>
                                         </div>
-                                        <a href="cek_login.php" class="btn btn-primary btn-user btn-block">
-                                            Masuk
+                                        <button type="Submit" name="login" class="btn btn-primary btn-user btn-block">Login</button>
+                                        <a class="text-center text-danger">
+                                            <?php
+                                            if (isset($_GET['pesan'])) {
+                                                if ($_GET['pesan'] == "gagal") {
+                                                    echo "Login gagal! Email dan password salah!";
+                                                } else if ($_GET['pesan'] == "logout") {
+                                                    echo "Anda telah berhasil logout";
+                                                } else if ($_GET['pesan'] == "belum_login") {
+                                                    echo "Anda harus login untuk mengakses halaman admin";
+                                                }
+                                            }
+                                            ?>
                                         </a>
-                                    </div>
+                                    </form>
                                     <hr>
                                     <div class="text-center small">
                                         Belum punya akun? <a href="daftar.php">Daftar</a>
@@ -77,17 +88,7 @@ include 'config.php';
             </div>
 
         </div>
-        <?php
-        if (isset($_GET['pesan'])) {
-            if ($_GET['pesan'] == "gagal") {
-                echo "Login gagal! Email dan password salah!";
-            } else if ($_GET['pesan'] == "logout") {
-                echo "Anda telah berhasil logout";
-            } else if ($_GET['pesan'] == "belum_login") {
-                echo "Anda harus login untuk mengakses halaman admin";
-            }
-        }
-        ?>
+       
     </div>
 
     <!-- Bootstrap core JS-->

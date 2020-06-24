@@ -61,6 +61,17 @@
                                         <button type="submit" name="submit" class="btn btn-primary btn-user btn-block">Submit</button>
                                     </div>
                                     <hr>
+                                    <div class="text-center">
+                                    <?php
+                                            if (isset($_GET['pesan'])) {
+                                                if ($_GET['pesan'] == "berhasil") {
+                                                    echo "Selamat Anda telah terdaftar";
+                                                } else if ($_GET['pesan'] == "gagal") {
+                                                    echo "Anda gagal terdaftar";
+                                                } 
+                                            }
+                                            ?>
+                                    </div>
                                     <div class="text-center small">
                                         Sudah punya akun? <a href="login.php">Masuk</a>
                                     </div>

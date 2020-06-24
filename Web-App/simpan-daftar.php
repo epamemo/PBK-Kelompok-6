@@ -19,12 +19,10 @@ $password=md5($_POST["Pwd"]); //untuk password digunakan enskripsi md5
 
 //Kondisi apakah berhasil atau tidak
   if ($hasil) {
-	echo "Berhasil simpan data anggota";
-	exit;
+	header("location:daftar.php?pesan=berhasil");
   }
 else {
-	echo "Gagal simpan data anggota";
-	exit;
+	header("location:daftar.php?pesan=gagal");
 }  
 
 ?>

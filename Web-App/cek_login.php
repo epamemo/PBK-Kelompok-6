@@ -10,10 +10,11 @@ $E_mail = $_POST['E_mail'];
 $Pwd = $_POST['Pwd'];
  
 // menyeleksi data admin dengan username dan password yang sesuai
-$data = mysqli_query($koneksi,"select * from user where E_mail='$E_mail' and Pwd='$Pwd'");
+$login = mysqli_query("select * from user where E_mail='$E_mail' and Pwd='$Pwd'");
+
  
 // menghitung jumlah data yang ditemukan
-$cek = mysqli_num_rows($data);
+$cek = mysqli_num_rows($login);
  
 if($cek > 0){
 	$_SESSION['E_mail'] = $E_mail;
