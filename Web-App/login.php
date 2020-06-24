@@ -3,6 +3,7 @@ include 'config.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -41,12 +42,12 @@ include 'config.php';
                         <div class="row">
                             <div class="col-lg">
                                 <div class="p-5">
-                                <div class="text-center">
+                                    <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Selamat Datang</h1>
                                     </div>
                                     <form class="user" action="cek_login.php" method="Post">
                                         <div class="form-group">
-                                            <input type="text" name="E_mail"class="form-control form-control-user" id="exampleInputEmail" placeholder="Email">
+                                            <input type="text" name="E_mail" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email">
                                         </div>
                                         <div class="form-group">
                                             <input type="Password" name="Pwd" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
@@ -88,7 +89,7 @@ include 'config.php';
             </div>
 
         </div>
-       
+
     </div>
 
     <!-- Bootstrap core JS-->
