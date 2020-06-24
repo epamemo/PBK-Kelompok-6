@@ -87,7 +87,7 @@ include 'header.php';
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-body">Silahkan pilih materi untuk mulai belajar. Jika sudah paham dapat melanjutkan mengerjakan quiz.</div>
                 <div class="modal-footer">
                     <a class="btn btn-primary" href="materi1_j.php">Materi</a>
                     <a class="btn btn-info" href="quiz1_j.php">Quiz</a>
@@ -105,7 +105,7 @@ include 'header.php';
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-body">Silahkan pilih materi untuk mulai belajar. Jika sudah paham dapat melanjutkan mengerjakan quiz.</div>
                 <div class="modal-footer">
                     <a class="btn btn-primary" href="materi2_j.php">Materi</a>
                     <a class="btn btn-info" href="quiz2_j.php">Quiz</a>
@@ -118,12 +118,12 @@ include 'header.php';
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Pelajari materi atau kerjakan quiz?</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Level 3</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-body">Silahkan pilih materi untuk mulai belajar. Jika sudah paham dapat melanjutkan mengerjakan quiz.</div>
                 <div class="modal-footer">
                     <a class="btn btn-primary" href="materi3_j.php">Materi</a>
                     <a class="btn btn-info" href="quiz3_j.php">Quiz</a>
@@ -136,12 +136,12 @@ include 'header.php';
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Pelajari materi atau kerjakan quiz?</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Level 4</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-body">Silahkan pilih materi untuk mulai belajar. Jika sudah paham dapat melanjutkan mengerjakan quiz.</div>
                 <div class="modal-footer">
                     <a class="btn btn-primary" href="materi4_j.php">Materi</a>
                     <a class="btn btn-info" href="quiz4_j.php">Quiz</a>
