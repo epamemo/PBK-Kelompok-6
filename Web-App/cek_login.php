@@ -20,7 +20,7 @@ if ($cek > 0) {
 	$_SESSION['E_mail'] = $E_mail;
 	$_SESSION['Nama'] = $nama;
 	$_SESSION['status'] = "login";
-	//header("location:dashboard/user/index.php");
+	header("location:dashboard/user/index.php");
 } else {
 	header("location:login.php?pesan=gagal");
 }
