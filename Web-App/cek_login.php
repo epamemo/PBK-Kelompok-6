@@ -17,6 +17,7 @@ $login = mysqli_query($mysqli, "SELECT * from user where E_mail='$E_mail' and Pw
 $cek = mysqli_num_rows($login);
 
 if ($cek > 0) {
+	session_start();
 	$_SESSION['E_mail'] = $E_mail;
 	$_SESSION['status'] = "login";
 	header("location:dashboard/user/index.php");

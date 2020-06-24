@@ -18,8 +18,7 @@ include 'header.php';
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Selamat Datang!</div>
-                            <div class="h1 mb-0 font-weight-bold text-gray-800">Hai Sultan, Ayo lanjutkan belajarnya!</div>
+                            Selamat Datang<?php echo $_SESSION['E_mail']; ?>
                         </div>
                     </div>
                 </div>
